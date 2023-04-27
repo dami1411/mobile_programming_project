@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddProds_activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20sp"
+            android:text="src image" />
+
+        <EditText
+            android:id="@+id/srcImgTxt"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/customEditHeight"
+            android:layout_marginLeft="15sp "
+            android:layout_marginRight="15sp"
+            android:layout_marginBottom="15sp"
+            android:hint="Product's link of image"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20sp"
+            android:text="product's name" />
+
+        <EditText
+            android:id="@+id/prodNameTxt"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/customEditHeight"
+            android:layout_marginLeft="15sp "
+            android:layout_marginRight="15sp"
+            android:layout_marginBottom="15sp"
+            android:hint="Product's name"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@id/prodPriceTxt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/srcImgTxt" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20sp"
+            android:text="product's description" />
+
+        <EditText
+            android:id="@+id/prodDescriptionTxt"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/customEditHeight"
+            android:layout_marginLeft="15sp "
+            android:layout_marginRight="15sp"
+            android:layout_marginBottom="15sp"
+            android:hint="Product's description"
+            android:inputType="textMultiLine"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20sp"
+            android:text="product's price" />
+
+        <EditText
+            android:id="@+id/prodPriceTxt"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/customEditHeight"
+            android:layout_marginLeft="15sp "
+            android:layout_marginRight="15sp"
+            android:layout_marginBottom="15sp"
+            android:hint="Product's price"
+            android:inputType="numberDecimal"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@id/insProd"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/prodNameTxt" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:gravity="start"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="15sp"
+                android:text="rate: "
+
+                android:textSize="20sp" />
+
+            <RatingBar
+                android:id="@+id/ratingTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@id/insProd"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/prodPriceTxt" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/insProd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15sp"
+            android:text="Insert Product"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/prodPriceTxt" />
+        <!--<Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:id="@+id/allProds"
+            app:layout_constraintTop_toBottomOf="@id/insProd"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:text="view all Products"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"/>-->
+
+    </LinearLayout>
+</ScrollView>

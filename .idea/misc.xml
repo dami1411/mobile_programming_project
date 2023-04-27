@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/drawable/bg_bottom_nav.xml" value="0.1" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/drawable/bg_bottom_nav_item.xml" value="0.1" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/drawable/et_style.xml" value="0.1" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/drawable/ic_baseline_add_card_24.xml" value="0.1" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/drawable/ic_baseline_article_24.xml" value="0.1" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/drawable/ic_baseline_assignment_ind_24.xml" value="0.1" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.1" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.1" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.1" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/drawable/ic_baseline_favorite_24_red.xml" value="0.1" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/drawable/ic_baseline_mode_night_24.xml" value="0.1" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/drawable/ic_baseline_wb_sunny_24.xml" value="0.1" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/drawable/ic_logout_fill1_wght500_grad0_opsz48.xml" value="0.1" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/drawable/ic_outline_delete_outline_24.xml" value="0.1" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/drawable/ic_outline_edit_24.xml" value="0.1" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/drawable/ic_outline_post_add_24.xml" value="0.1" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/drawable/logo.xml" value="0.12" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/drawable/logout-48px.xml" value="0.1" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/drawable/thumb.xml" value="0.1" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/drawable/thumbfalse.xml" value="0.1" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/drawable/thumbtrue.xml" value="0.1" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/drawable/track.xml" value="0.1" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/layout/activity_add_prods.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/layout/activity_login.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/layout/activity_show_prod.xml" value="0.1" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/layout/fragment_profile.xml" value="0.10666666666666667" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/layout/fragment_wish_list.xml" value="0.12" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/layout/item_view.xml" value="0.22" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/layout/popup_ask_pwd.xml" value="0.12" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/layout/rv_wish_list.xml" value="0.1" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/menu/action_bar_menu.xml" value="0.1" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/menu/log_out.xml" value="0.1" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/menu/menu_bar.xml" value="0.1" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/menu/options_menu.xml" value="0.10619469026548672" />
+        <entry key="..\:/Users/damia/AndroidStudioProjects/ShopF/app/src/main/res/menu/searc_bar.xml" value="0.2777777777777778" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

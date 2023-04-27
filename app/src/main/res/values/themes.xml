@@ -1,0 +1,53 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ShopF" parent="Theme.MaterialComponents.DayNight">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/accent</item>
+        <!--<item name="colorControlNormal">@color/black</item>-->
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/accent</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textViewStyle">@style/TVstyle</item>
+        <item name="editTextStyle">@style/customEditText</item>
+        <item name="materialButtonStyle">@style/customButton</item>
+        <item name="colorOnSurface">@color/black</item>
+    </style>
+
+    <style name="TVstyle" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TVstyleTitle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="customEditText" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/et_style</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:textColorHint">@color/black</item>
+
+    </style>
+
+    <style name="customButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/accent</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">10dp</item>
+    </style>
+
+    <dimen name="customEditHeight">60dp</dimen>
+
+</resources>
